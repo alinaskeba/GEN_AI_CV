@@ -1,0 +1,15 @@
+{
+  "dataset": "mnist",
+  "beta": 8.0,
+  "latent_dim": 32,
+  "epochs": 30,
+  "learning_rate": 0.001,
+  "batch_size": 256,
+  "seed": 42,
+  "train_size": 50000,
+  "validation_size": 10000,
+  "checkpoint_metric": "validation reconstruction_nll + beta * kl",
+  "observation_model": "Bernoulli on dynamically binarized images",
+  "parameters": 1700609,
+  "smoke_test": false
+}

@@ -1,0 +1,3 @@
+dataset,epochs,seconds,final_fixed_pairwise_pixel_mse
+mnist,40,85.3261754999985,0.11950351754013373
+fashion_mnist,40,82.73244829999749,0.15930094037737166

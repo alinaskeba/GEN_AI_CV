@@ -1,0 +1,24 @@
+{
+  "dataset": "fashion_mnist",
+  "name": "cgan",
+  "conditional": true,
+  "patch": false,
+  "fm_weight": 0.0,
+  "epochs": 40,
+  "seed": 42,
+  "noise_dim": 100,
+  "classes": 10,
+  "batch_size": 128,
+  "learning_rate": 0.0002,
+  "adam_betas": [
+    0.5,
+    0.999
+  ],
+  "train_size": 50000,
+  "validation_size": 10000,
+  "generator_parameters": 1488912,
+  "discriminator_parameters": 111041,
+  "patch_map": "14x14",
+  "patch_receptive_field": "14x14",
+  "smoke_test": false
+}

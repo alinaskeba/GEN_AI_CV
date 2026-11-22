@@ -1,0 +1,15 @@
+{
+  "dataset": "mnist",
+  "latent_dim": 32,
+  "epochs": 30,
+  "seed": 42,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "kl_weight": 1.0,
+  "observation_model": "Bernoulli on dynamically binarized grayscale images",
+  "validation_seed": 2026,
+  "train_size": 50000,
+  "validation_size": 10000,
+  "parameters": 1700609,
+  "smoke_test": false
+}

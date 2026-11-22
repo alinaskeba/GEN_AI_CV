@@ -1,0 +1,47 @@
+{
+  "resolutions": [
+    4,
+    8,
+    16,
+    32
+  ],
+  "channels": [
+    128,
+    128,
+    64,
+    32
+  ],
+  "z_dim": 128,
+  "batch_sizes": {
+    "4": 128,
+    "8": 128,
+    "16": 64,
+    "32": 64
+  },
+  "fade_epochs": {
+    "8": 4,
+    "16": 4,
+    "32": 8
+  },
+  "stable_epochs": {
+    "4": 4,
+    "8": 4,
+    "16": 8,
+    "32": 16
+  },
+  "learning_rate": 0.001,
+  "adam_betas": [
+    0.0,
+    0.99
+  ],
+  "gradient_penalty": 10.0,
+  "drift": 0.001,
+  "updates": "one critic and one G step per batch",
+  "seed": 42,
+  "data_source": "CIFAR-10 official binary archive",
+  "smoke_test": false,
+  "generator_parameters": 846444,
+  "critic_parameters": 584737,
+  "train_size": 45000,
+  "validation_size": 5000
+}

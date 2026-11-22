@@ -1,0 +1,13 @@
+{
+  "dataset": "mnist",
+  "latent_dim": 8,
+  "epochs": 20,
+  "seed": 42,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "loss": "MSE",
+  "train_size": 50000,
+  "validation_size": 10000,
+  "parameters": 470552,
+  "smoke_test": false
+}

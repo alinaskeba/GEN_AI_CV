@@ -1,0 +1,20 @@
+[
+  {
+    "dataset": "mnist",
+    "train": 50000,
+    "validation": 10000,
+    "test": 10000,
+    "index_overlap": 0,
+    "exact_image_overlap_train_val": 0,
+    "exact_image_overlap_train_test": 0
+  },
+  {
+    "dataset": "fashion_mnist",
+    "train": 50000,
+    "validation": 10000,
+    "test": 10000,
+    "index_overlap": 0,
+    "exact_image_overlap_train_val": 0,
+    "exact_image_overlap_train_test": 0
+  }
+]

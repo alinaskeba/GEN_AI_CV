@@ -1,0 +1,20 @@
+{
+  "dataset": "fashion_mnist",
+  "noise_dim": 100,
+  "epochs": 40,
+  "batch_size": 128,
+  "seed": 42,
+  "learning_rate_g": 0.0002,
+  "learning_rate_d": 0.0002,
+  "adam_betas": [
+    0.5,
+    0.999
+  ],
+  "updates": "one D and one G per batch",
+  "d_loss_scaling": "half sum of real/fake BCE means",
+  "generator_parameters": 1486352,
+  "discriminator_parameters": 533505,
+  "train_size": 50000,
+  "validation_size": 10000,
+  "smoke_test": false
+}

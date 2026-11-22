@@ -1,0 +1,2 @@
+dataset,critic_real,critic_fake,critic_gap,g_loss,smoke_test,interpretation
+CIFAR-10 official binary archive,1.9955024890899657,1.8598396289825438,0.13566286010742187,-1.8598396289825438,False,"critic diagnostics, not image quality or likelihood"

@@ -1,0 +1,210 @@
+[
+  {
+    "resolution": 4,
+    "stage": 0,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 0,
+    "path": "4px_stabilize_start.png"
+  },
+  {
+    "resolution": 4,
+    "stage": 0,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 1,
+    "path": "4px_stabilize_epoch_001.png"
+  },
+  {
+    "resolution": 4,
+    "stage": 0,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 4,
+    "path": "4px_stabilize_epoch_004.png"
+  },
+  {
+    "resolution": 8,
+    "stage": 1,
+    "phase": "fade",
+    "alpha": 0.0,
+    "global_epoch": 4,
+    "path": "8px_fade_start.png"
+  },
+  {
+    "resolution": 8,
+    "stage": 1,
+    "phase": "fade",
+    "alpha": 0.24946695095948826,
+    "global_epoch": 5,
+    "path": "8px_fade_epoch_001.png"
+  },
+  {
+    "resolution": 8,
+    "stage": 1,
+    "phase": "fade",
+    "alpha": 1.0,
+    "global_epoch": 8,
+    "path": "8px_fade_epoch_004.png"
+  },
+  {
+    "resolution": 8,
+    "stage": 1,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 8,
+    "path": "8px_stabilize_start.png"
+  },
+  {
+    "resolution": 8,
+    "stage": 1,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 9,
+    "path": "8px_stabilize_epoch_001.png"
+  },
+  {
+    "resolution": 8,
+    "stage": 1,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 12,
+    "path": "8px_stabilize_epoch_004.png"
+  },
+  {
+    "resolution": 16,
+    "stage": 2,
+    "phase": "fade",
+    "alpha": 0.0,
+    "global_epoch": 12,
+    "path": "16px_fade_start.png"
+  },
+  {
+    "resolution": 16,
+    "stage": 2,
+    "phase": "fade",
+    "alpha": 0.2497335701598579,
+    "global_epoch": 13,
+    "path": "16px_fade_epoch_001.png"
+  },
+  {
+    "resolution": 16,
+    "stage": 2,
+    "phase": "fade",
+    "alpha": 1.0,
+    "global_epoch": 16,
+    "path": "16px_fade_epoch_004.png"
+  },
+  {
+    "resolution": 16,
+    "stage": 2,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 16,
+    "path": "16px_stabilize_start.png"
+  },
+  {
+    "resolution": 16,
+    "stage": 2,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 17,
+    "path": "16px_stabilize_epoch_001.png"
+  },
+  {
+    "resolution": 16,
+    "stage": 2,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 20,
+    "path": "16px_stabilize_epoch_004.png"
+  },
+  {
+    "resolution": 16,
+    "stage": 2,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 24,
+    "path": "16px_stabilize_epoch_008.png"
+  },
+  {
+    "resolution": 32,
+    "stage": 3,
+    "phase": "fade",
+    "alpha": 0.0,
+    "global_epoch": 24,
+    "path": "32px_fade_start.png"
+  },
+  {
+    "resolution": 32,
+    "stage": 3,
+    "phase": "fade",
+    "alpha": 0.1248446101935713,
+    "global_epoch": 25,
+    "path": "32px_fade_epoch_001.png"
+  },
+  {
+    "resolution": 32,
+    "stage": 3,
+    "phase": "fade",
+    "alpha": 0.4999112058248979,
+    "global_epoch": 28,
+    "path": "32px_fade_epoch_004.png"
+  },
+  {
+    "resolution": 32,
+    "stage": 3,
+    "phase": "fade",
+    "alpha": 1.0,
+    "global_epoch": 32,
+    "path": "32px_fade_epoch_008.png"
+  },
+  {
+    "resolution": 32,
+    "stage": 3,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 32,
+    "path": "32px_stabilize_start.png"
+  },
+  {
+    "resolution": 32,
+    "stage": 3,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 33,
+    "path": "32px_stabilize_epoch_001.png"
+  },
+  {
+    "resolution": 32,
+    "stage": 3,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 36,
+    "path": "32px_stabilize_epoch_004.png"
+  },
+  {
+    "resolution": 32,
+    "stage": 3,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 40,
+    "path": "32px_stabilize_epoch_008.png"
+  },
+  {
+    "resolution": 32,
+    "stage": 3,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 44,
+    "path": "32px_stabilize_epoch_012.png"
+  },
+  {
+    "resolution": 32,
+    "stage": 3,
+    "phase": "stabilize",
+    "alpha": 1.0,
+    "global_epoch": 48,
+    "path": "32px_stabilize_epoch_016.png"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "selection": "highest validation mean KL",
+  "dimensions": [
+    27,
+    23,
+    14,
+    3,
+    0,
+    7,
+    31,
+    21
+  ],
+  "active_variance_threshold": 0.01
+}

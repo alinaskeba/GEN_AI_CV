@@ -1,0 +1,881 @@
+{
+  "notebook_sha256": "2841987826964728283cce00101d65fa5d695b3e56e0ce78091ccc14212e3793",
+  "notebook_unchanged": true,
+  "device": "CPU",
+  "training_noise_checks": {
+    "vanilla": {
+      "generator_forward_calls": 4,
+      "input_vectors": 8,
+      "unique_input_vectors": 8
+    },
+    "conditional": {
+      "generator_forward_calls": 4,
+      "input_vectors": 8,
+      "unique_input_vectors": 8
+    },
+    "progressive": {
+      "generator_forward_calls": 4,
+      "input_vectors": 8,
+      "unique_input_vectors": 8
+    }
+  },
+  "plot_indexing": "each image index used exactly once",
+  "noise_bank": {
+    "rows": 80,
+    "unique_rows": 80,
+    "seed": 123
+  },
+  "conditional_checkpoints": [
+    {
+      "dataset": "mnist",
+      "variant": "unconditional_control",
+      "seed": 123,
+      "total_vectors": 80,
+      "unique_z": 80,
+      "minimum_z_pair_l2": 11.25826358795166,
+      "unique_float_images": 80,
+      "unique_uint8_images": 80,
+      "mean_within_class_pixel_mse": 8.509517219677871e-05,
+      "changed_noise_same_label_mse": 0.00010868505341932178,
+      "changed_label_same_noise_mse": 0.0,
+      "per_class": [
+        {
+          "label": 0,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 7.538698442584398e-05
+        },
+        {
+          "label": 1,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 8.680151623426651e-05
+        },
+        {
+          "label": 2,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 6.526511409605036e-05
+        },
+        {
+          "label": 3,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.000110836994207027
+        },
+        {
+          "label": 4,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 5.3808321149981754e-05
+        },
+        {
+          "label": 5,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 8.135480920270997e-05
+        },
+        {
+          "label": 6,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.0001297205952661378
+        },
+        {
+          "label": 7,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 7.35528681579293e-05
+        },
+        {
+          "label": 8,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.00010669947962979881
+        },
+        {
+          "label": 9,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 6.752503959804166e-05
+        }
+      ]
+    },
+    {
+      "dataset": "mnist",
+      "variant": "cgan",
+      "seed": 123,
+      "total_vectors": 80,
+      "unique_z": 80,
+      "minimum_z_pair_l2": 11.25826358795166,
+      "unique_float_images": 80,
+      "unique_uint8_images": 80,
+      "mean_within_class_pixel_mse": 5.526421948012953e-05,
+      "changed_noise_same_label_mse": 6.086619396228343e-05,
+      "changed_label_same_noise_mse": 0.12412162870168686,
+      "per_class": [
+        {
+          "label": 0,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 2.3676274933529144e-05
+        },
+        {
+          "label": 1,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 1.7989711950019914e-05
+        },
+        {
+          "label": 2,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 6.331667798210164e-05
+        },
+        {
+          "label": 3,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.00011169606325577716
+        },
+        {
+          "label": 4,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 6.77892596137767e-05
+        },
+        {
+          "label": 5,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 3.364146687090397e-05
+        },
+        {
+          "label": 6,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 5.778940204454928e-05
+        },
+        {
+          "label": 7,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 5.61294858628998e-05
+        },
+        {
+          "label": 8,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 5.04870775478835e-05
+        },
+        {
+          "label": 9,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 7.012677473985419e-05
+        }
+      ]
+    },
+    {
+      "dataset": "mnist",
+      "variant": "cgan_patch",
+      "seed": 123,
+      "total_vectors": 80,
+      "unique_z": 80,
+      "minimum_z_pair_l2": 11.25826358795166,
+      "unique_float_images": 80,
+      "unique_uint8_images": 80,
+      "mean_within_class_pixel_mse": 2.7694789293621265e-05,
+      "changed_noise_same_label_mse": 2.5538236513966694e-05,
+      "changed_label_same_noise_mse": 0.13925404846668243,
+      "per_class": [
+        {
+          "label": 0,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 2.824356636906765e-05
+        },
+        {
+          "label": 1,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 1.1274418841135137e-05
+        },
+        {
+          "label": 2,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 2.396050175385816e-05
+        },
+        {
+          "label": 3,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 3.477953117796961e-05
+        },
+        {
+          "label": 4,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 1.4927956912362453e-05
+        },
+        {
+          "label": 5,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 3.555406132066737e-05
+        },
+        {
+          "label": 6,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 4.096838113452707e-05
+        },
+        {
+          "label": 7,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 2.206357585608351e-05
+        },
+        {
+          "label": 8,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 2.3893206570373504e-05
+        },
+        {
+          "label": 9,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 4.128269300016822e-05
+        }
+      ]
+    },
+    {
+      "dataset": "mnist",
+      "variant": "cgan_feature_matching",
+      "seed": 123,
+      "total_vectors": 80,
+      "unique_z": 80,
+      "minimum_z_pair_l2": 11.25826358795166,
+      "unique_float_images": 80,
+      "unique_uint8_images": 80,
+      "mean_within_class_pixel_mse": 0.0001540311897287563,
+      "changed_noise_same_label_mse": 0.00015104294288903475,
+      "changed_label_same_noise_mse": 0.12974227964878082,
+      "per_class": [
+        {
+          "label": 0,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.00016091340126431718
+        },
+        {
+          "label": 1,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 9.060506613887086e-05
+        },
+        {
+          "label": 2,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.0001175372994371823
+        },
+        {
+          "label": 3,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.00019318199887567638
+        },
+        {
+          "label": 4,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 9.15761409821559e-05
+        },
+        {
+          "label": 5,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.0002340145257054543
+        },
+        {
+          "label": 6,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.00018005903658210016
+        },
+        {
+          "label": 7,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.00011385095362760583
+        },
+        {
+          "label": 8,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.00021555782200730577
+        },
+        {
+          "label": 9,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.00014301565266689476
+        }
+      ]
+    },
+    {
+      "dataset": "mnist",
+      "variant": "cgan_patch_feature_matching",
+      "seed": 123,
+      "total_vectors": 80,
+      "unique_z": 80,
+      "minimum_z_pair_l2": 11.25826358795166,
+      "unique_float_images": 80,
+      "unique_uint8_images": 80,
+      "mean_within_class_pixel_mse": 6.752093809618785e-05,
+      "changed_noise_same_label_mse": 7.002978964010254e-05,
+      "changed_label_same_noise_mse": 0.13643160462379456,
+      "per_class": [
+        {
+          "label": 0,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 8.305836925093009e-05
+        },
+        {
+          "label": 1,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 1.8684869413549196e-05
+        },
+        {
+          "label": 2,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 9.33107007675025e-05
+        },
+        {
+          "label": 3,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.00010443806686267561
+        },
+        {
+          "label": 4,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 9.604158564185609e-05
+        },
+        {
+          "label": 5,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 7.231384800861077e-05
+        },
+        {
+          "label": 6,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 2.4181139674417825e-05
+        },
+        {
+          "label": 7,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 3.5522995060499835e-05
+        },
+        {
+          "label": 8,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 5.8040502766261295e-05
+        },
+        {
+          "label": 9,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 8.961730351557536e-05
+        }
+      ]
+    },
+    {
+      "dataset": "fashion_mnist",
+      "variant": "unconditional_control",
+      "seed": 123,
+      "total_vectors": 80,
+      "unique_z": 80,
+      "minimum_z_pair_l2": 11.25826358795166,
+      "unique_float_images": 80,
+      "unique_uint8_images": 80,
+      "mean_within_class_pixel_mse": 0.1352273503128363,
+      "changed_noise_same_label_mse": 0.1423555314540863,
+      "changed_label_same_noise_mse": 0.0,
+      "per_class": [
+        {
+          "label": 0,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.1338542432201152
+        },
+        {
+          "label": 1,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.1320913859776088
+        },
+        {
+          "label": 2,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.12409668552632235
+        },
+        {
+          "label": 3,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.1371208502321827
+        },
+        {
+          "label": 4,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.13815987839990732
+        },
+        {
+          "label": 5,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.13498439594190947
+        },
+        {
+          "label": 6,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.10702654780173788
+        },
+        {
+          "label": 7,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.13180106026785715
+        },
+        {
+          "label": 8,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.14982949470987125
+        },
+        {
+          "label": 9,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.163308961050851
+        }
+      ]
+    },
+    {
+      "dataset": "fashion_mnist",
+      "variant": "cgan",
+      "seed": 123,
+      "total_vectors": 80,
+      "unique_z": 80,
+      "minimum_z_pair_l2": 11.25826358795166,
+      "unique_float_images": 80,
+      "unique_uint8_images": 80,
+      "mean_within_class_pixel_mse": 0.07117826987286005,
+      "changed_noise_same_label_mse": 0.06839973479509354,
+      "changed_label_same_noise_mse": 0.18754516541957855,
+      "per_class": [
+        {
+          "label": 0,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.05049035013938437
+        },
+        {
+          "label": 1,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.031661342601386866
+        },
+        {
+          "label": 2,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.07849783313517668
+        },
+        {
+          "label": 3,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.06201330496340382
+        },
+        {
+          "label": 4,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.118568838859091
+        },
+        {
+          "label": 5,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.05242286896219059
+        },
+        {
+          "label": 6,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.11854585336179149
+        },
+        {
+          "label": 7,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.027079531124659946
+        },
+        {
+          "label": 8,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.10520531206714864
+        },
+        {
+          "label": 9,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.06729746351436693
+        }
+      ]
+    },
+    {
+      "dataset": "fashion_mnist",
+      "variant": "cgan_patch",
+      "seed": 123,
+      "total_vectors": 80,
+      "unique_z": 80,
+      "minimum_z_pair_l2": 11.25826358795166,
+      "unique_float_images": 80,
+      "unique_uint8_images": 80,
+      "mean_within_class_pixel_mse": 0.09385643808209167,
+      "changed_noise_same_label_mse": 0.07997208833694458,
+      "changed_label_same_noise_mse": 0.18181711435317993,
+      "per_class": [
+        {
+          "label": 0,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.10396036809804488
+        },
+        {
+          "label": 1,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.061910069718652844
+        },
+        {
+          "label": 2,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.10629429136003767
+        },
+        {
+          "label": 3,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.054073085590284696
+        },
+        {
+          "label": 4,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.13162480568399235
+        },
+        {
+          "label": 5,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.0756180140436912
+        },
+        {
+          "label": 6,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.13046505986427775
+        },
+        {
+          "label": 7,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.03732507326165024
+        },
+        {
+          "label": 8,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.13452561047612405
+        },
+        {
+          "label": 9,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.10276800272416095
+        }
+      ]
+    },
+    {
+      "dataset": "fashion_mnist",
+      "variant": "cgan_feature_matching",
+      "seed": 123,
+      "total_vectors": 80,
+      "unique_z": 80,
+      "minimum_z_pair_l2": 11.25826358795166,
+      "unique_float_images": 80,
+      "unique_uint8_images": 80,
+      "mean_within_class_pixel_mse": 0.07302191671060056,
+      "changed_noise_same_label_mse": 0.07390467077493668,
+      "changed_label_same_noise_mse": 0.17020386457443237,
+      "per_class": [
+        {
+          "label": 0,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.08918585096086774
+        },
+        {
+          "label": 1,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.044398244546384226
+        },
+        {
+          "label": 2,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.11530675693434111
+        },
+        {
+          "label": 3,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.08179788200222717
+        },
+        {
+          "label": 4,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.0647688203928422
+        },
+        {
+          "label": 5,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.02474059620682074
+        },
+        {
+          "label": 6,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.09310222158626634
+        },
+        {
+          "label": 7,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.044040728588493505
+        },
+        {
+          "label": 8,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.11747651197472397
+        },
+        {
+          "label": 9,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.0554015539130386
+        }
+      ]
+    },
+    {
+      "dataset": "fashion_mnist",
+      "variant": "cgan_patch_feature_matching",
+      "seed": 123,
+      "total_vectors": 80,
+      "unique_z": 80,
+      "minimum_z_pair_l2": 11.25826358795166,
+      "unique_float_images": 80,
+      "unique_uint8_images": 80,
+      "mean_within_class_pixel_mse": 0.07471469227148562,
+      "changed_noise_same_label_mse": 0.07521774619817734,
+      "changed_label_same_noise_mse": 0.17031337320804596,
+      "per_class": [
+        {
+          "label": 0,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.06970453262329102
+        },
+        {
+          "label": 1,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.04806360419915647
+        },
+        {
+          "label": 2,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.10741672710496553
+        },
+        {
+          "label": 3,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.06437145933812978
+        },
+        {
+          "label": 4,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.055253972812574735
+        },
+        {
+          "label": 5,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.029647574132802536
+        },
+        {
+          "label": 6,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.10160407241509885
+        },
+        {
+          "label": 7,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.046767653251180846
+        },
+        {
+          "label": 8,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.15921174263467594
+        },
+        {
+          "label": 9,
+          "unique_noise": 8,
+          "unique_float_images": 8,
+          "unique_uint8_images": 8,
+          "pairwise_pixel_mse": 0.06510558420298052
+        }
+      ]
+    }
+  ],
+  "caveat": "CPU RNG streams differ from CUDA for the same seed; independence/indexing and fresh generator responses were tested, not bit-exact reproduction of old CUDA grids."
+}

@@ -1,0 +1,57 @@
+# Local data, weights, lecture copies, drafts and development tools
+.local/
+**/data/
+**/checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Python and Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+~$*.docx
+
+# Local credentials and tool state
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+
+# Additional caches and temporary files
+**/.venv/
+**/venv/
+.mypy_cache/
+.ruff_cache/
+*.tmp
+*.download
+*.bak
+
+# Working report draft; the final author report belongs in Git
+HW1/reports/HW1_Report_Draft.docx
+
+# Result folders already contain saved experiments
+HW1/results/.gitkeep
+HW1/results/autoencoder/.gitkeep
+
+# Debug results are not homework evidence
+HW1/results/smoke/
+HW1/results/autoencoder/smoke/
+HW1/results/vae/smoke/
+HW1/results/flow_vae/smoke/
+HW1/results/beta_vae/smoke/
+HW1/results/gan/smoke/
+HW1/results/conditional_gan/smoke/
+HW1/results/progressive_gan/smoke/

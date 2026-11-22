@@ -1,0 +1,39 @@
+{
+  "review_date": "2026-11-22",
+  "scope": "Markdown-only edits; no notebook execution",
+  "notebooks": {
+    "RealNVP.ipynb": {
+      "sha256_before": "5274440ee9e0c5a94c1a0c9be2eedc223e51568bd003882bb4f4728c75cab515",
+      "sha256": "e268cf4593a31266e0404d760d69c8e35b4844c88f664e2e043f708e94e098bb",
+      "bytes": 7624560,
+      "markdown_cells_updated": 7,
+      "code_outputs_execution_counts_metadata_unchanged": true,
+      "code_cells_with_outputs_sha256": "b24213b1bce526d8adedb9c1723709fcde40944ad79d649de7ceb8b54e0afa19",
+      "executed_code_cells": 7,
+      "total_code_cells": 8,
+      "saved_errors": 0
+    },
+    "VAE.ipynb": {
+      "sha256_before": "ba5e4e7e1e8e31df2fcfb41da3e69599d7cd862b61d36f0b120530f04f11a367",
+      "sha256": "762ef6d1a990222d53f3e0d6b8ed21eb82835af735d032123550c9c6b6b5e453",
+      "bytes": 13535050,
+      "markdown_cells_updated": 27,
+      "code_outputs_execution_counts_metadata_unchanged": true,
+      "code_cells_with_outputs_sha256": "6029b3b3ffa78e243f220dd71f37e8b5d630efd5ee8221666530916cce2e7640",
+      "executed_code_cells": 26,
+      "total_code_cells": 27,
+      "saved_errors": 0
+    },
+    "GAN.ipynb": {
+      "sha256_before": "6e51c4300cf49d81bc2f6455dab1f342d793cc24fe04dea4b00e4af6bb2079df",
+      "sha256": "0254f8bec99a2fb12a491ac5cacb67401f04ddef96ee2e5fccea753516251b7e",
+      "bytes": 57695141,
+      "markdown_cells_updated": 20,
+      "code_outputs_execution_counts_metadata_unchanged": true,
+      "code_cells_with_outputs_sha256": "6448e63490793ebd9a031cd6306999606aa5d87654c7e8a6325ee83ffd7297ac",
+      "executed_code_cells": 19,
+      "total_code_cells": 20,
+      "saved_errors": 0
+    }
+  }
+}

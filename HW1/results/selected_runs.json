@@ -1,0 +1,42 @@
+{
+  "normalizing_flows": {
+    "notebook": "RealNVP.ipynb",
+    "path": "full/20261112T152734929186Z",
+    "report": "report.md"
+  },
+  "autoencoder": {
+    "notebook": "VAE.ipynb",
+    "path": "autoencoder/full/20261112T195627594153Z",
+    "report": "autoencoder_report.md"
+  },
+  "vae": {
+    "notebook": "VAE.ipynb",
+    "path": "vae/full/20261112T195949996736Z",
+    "report": "vae_report.md"
+  },
+  "flow_vae": {
+    "notebook": "VAE.ipynb",
+    "path": "flow_vae/full/20261112T200136495498Z",
+    "report": "flow_vae_report.md"
+  },
+  "beta_vae": {
+    "notebook": "VAE.ipynb",
+    "path": "beta_vae/full/20261112T200728667225Z",
+    "report": "beta_vae_report.md"
+  },
+  "vanilla_gan": {
+    "notebook": "GAN.ipynb",
+    "path": "gan/full/20261112T210110693996Z",
+    "report": "gan_report.md"
+  },
+  "conditional_gan": {
+    "notebook": "GAN.ipynb",
+    "path": "conditional_gan/full/20261112T210414243555Z",
+    "report": "conditional_gan_report.md"
+  },
+  "progressive_gan": {
+    "notebook": "GAN.ipynb",
+    "path": "progressive_gan/full/20261112T213856462231Z",
+    "report": "progressive_gan_report.md"
+  }
+}

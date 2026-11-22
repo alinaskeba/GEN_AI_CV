@@ -1,0 +1,3 @@
+dataset,best_epoch,val_negative_elbo,latent_dim,parameters,seconds
+mnist,29,96.7262079711914,32,1700609,42.941779299999325
+fashion_mnist,30,236.05754072265626,32,1700609,42.32081210000979
